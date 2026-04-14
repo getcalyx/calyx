@@ -1,0 +1,11 @@
+{
+  "packages": [
+    {
+      "name": "haxnet",
+      "version": "1.0.0",
+      "url": "https://calyx.rf.gd/packages/haxnet-1.0.0-aarch64.tar.gz",
+      "bin": ["haxnet"],
+      "description": "Neon terminal shell for Calyx."
+    }
+  ]
+}
