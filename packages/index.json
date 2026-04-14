@@ -1,6 +1,125 @@
 {
   "packages": [
     {
+      "name": "busybox",
+      "version": "1.36.1",
+      "url": "https://raw.githubusercontent.com/EXALAB/Busybox-static/main/busybox-aarch64",
+      "bin": ["busybox"],
+      "description": "Static BusyBox binary from EXALAB."
+    },
+    {
+      "name": "busybox-fat",
+      "version": "1.36.1",
+      "url": "https://raw.githubusercontent.com/shutingrz/busybox-static-binaries-fat/main/busybox-aarch64",
+      "bin": ["busybox-fat"],
+      "description": "Fat BusyBox build with more applets."
+    },
+    {
+      "name": "curl",
+      "version": "8.5.0",
+      "url": "https://raw.githubusercontent.com/Inknyto/arm-binaries/master/curl",
+      "bin": ["curl"],
+      "description": "Static curl binary."
+    },
+    {
+      "name": "wget",
+      "version": "1.21.4",
+      "url": "https://raw.githubusercontent.com/Inknyto/arm-binaries/master/wget",
+      "bin": ["wget"],
+      "description": "Static wget binary."
+    },
+    {
+      "name": "nmap",
+      "version": "7.94",
+      "url": "https://raw.githubusercontent.com/polaco1782/linux-static-binaries/master/armv8-aarch64/nmap",
+      "bin": ["nmap"],
+      "description": "Static nmap binary."
+    },
+    {
+      "name": "proot",
+      "version": "5.3.0",
+      "url": "https://raw.githubusercontent.com/ZhymabekRoman/proot-static/master/proot-aarch64",
+      "bin": ["proot"],
+      "description": "Static proot binary."
+    },
+    {
+      "name": "tar",
+      "version": "1.34.0",
+      "url": "https://raw.githubusercontent.com/andrew-d/static-binaries/master/binaries/linux/arm64/tar",
+      "bin": ["tar"],
+      "description": "Static tar binary."
+    },
+    {
+      "name": "xz",
+      "version": "5.4.0",
+      "url": "https://raw.githubusercontent.com/andrew-d/static-binaries/master/binaries/linux/arm64/xz",
+      "bin": ["xz"],
+      "description": "Static xz binary."
+    },
+    {
+      "name": "zstd",
+      "version": "1.5.5",
+      "url": "https://raw.githubusercontent.com/andrew-d/static-binaries/master/binaries/linux/arm64/zstd",
+      "bin": ["zstd"],
+      "description": "Static zstd binary."
+    },
+    {
+      "name": "git",
+      "version": "2.43.0",
+      "url": "https://raw.githubusercontent.com/bnsmb/binaries-for-Android/master/git",
+      "bin": ["git"],
+      "description": "Static git binary."
+    },
+    {
+      "name": "ssh",
+      "version": "9.6p1",
+      "url": "https://raw.githubusercontent.com/bnsmb/binaries-for-Android/master/ssh",
+      "bin": ["ssh"],
+      "description": "Static OpenSSH client."
+    },
+    {
+      "name": "nano",
+      "version": "7.2",
+      "url": "https://raw.githubusercontent.com/bnsmb/binaries-for-Android/master/nano",
+      "bin": ["nano"],
+      "description": "Nano text editor."
+    },
+    {
+      "name": "htop",
+      "version": "3.3.0",
+      "url": "https://raw.githubusercontent.com/f0rw4rd/sthenos-embedded-toolkit/master/binaries/aarch64/htop",
+      "bin": ["htop"],
+      "description": "Interactive process viewer."
+    },
+    {
+      "name": "strace",
+      "version": "6.5",
+      "url": "https://raw.githubusercontent.com/f0rw4rd/sthenos-embedded-toolkit/master/binaries/aarch64/strace",
+      "bin": ["strace"],
+      "description": "System call tracer."
+    },
+    {
+      "name": "tcpdump",
+      "version": "4.99.4",
+      "url": "https://raw.githubusercontent.com/f0rw4rd/sthenos-embedded-toolkit/master/binaries/aarch64/tcpdump",
+      "bin": ["tcpdump"],
+      "description": "Network packet analyzer."
+    },
+    {
+      "name": "socat",
+      "version": "1.7.4",
+      "url": "https://raw.githubusercontent.com/f0rw4rd/sthenos-embedded-toolkit/master/binaries/aarch64/socat",
+      "bin": ["socat"],
+      "description": "Bidirectional data relay."
+    },
+    {
+      "name": "ffmpeg",
+      "version": "6.1",
+      "url": "https://raw.githubusercontent.com/f0rw4rd/sthenos-embedded-toolkit/master/binaries/aarch64/ffmpeg",
+      "bin": ["ffmpeg"],
+      "description": "Static ffmpeg binary."
+    },
+    {
       "name": "haxnet",
       "version": "1.0.0",
       "url": "https://raw.githubusercontent.com/getcalyx/calyx/main/packages/haxnet-1.0.0-aarch64.tar.gz",
